@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* App/BlackAndWhiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* App/BlackAndWhiteApp.swift */; };
+		B00000000000000000000002 /* App/AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* App/AppEnvironment.swift */; };
+		B00000000000000000000003 /* App/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* App/RootView.swift */; };
+		B00000000000000000000004 /* Features/DecisionFlow/DecisionFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* Features/DecisionFlow/DecisionFlowView.swift */; };
+		B00000000000000000000005 /* Features/DecisionFlow/DecisionFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* Features/DecisionFlow/DecisionFlowModel.swift */; };
+		B00000000000000000000006 /* Features/DecisionFlow/Components/PrimaryActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* Features/DecisionFlow/Components/PrimaryActionButton.swift */; };
+		B00000000000000000000007 /* Features/DecisionFlow/Components/VerdictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* Features/DecisionFlow/Components/VerdictView.swift */; };
+		B00000000000000000000008 /* Features/DecisionFlow/Motion/VerdictHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* Features/DecisionFlow/Motion/VerdictHaptics.swift */; };
+		B00000000000000000000009 /* Domain/Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* Domain/Decision.swift */; };
+		B0000000000000000000000C /* Infrastructure/DecisionService/DecisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* Infrastructure/DecisionService/DecisionService.swift */; };
+		B0000000000000000000000E /* Infrastructure/DecisionService/MockDecisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000E /* Infrastructure/DecisionService/MockDecisionService.swift */; };
+		B00000000000000000000010 /* DesignSystem/ColorTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* DesignSystem/ColorTokens.swift */; };
+		B00000000000000000000011 /* DesignSystem/TypeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* DesignSystem/TypeTokens.swift */; };
+		B00000000000000000000012 /* DesignSystem/SpacingTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* DesignSystem/SpacingTokens.swift */; };
+		B00000000000000000000013 /* DesignSystem/MotionTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* DesignSystem/MotionTokens.swift */; };
+		B00000000000000000000014 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* Resources/Assets.xcassets */; };
+		B0000000000000000000001C /* Resources/AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001C /* Resources/AppIcon.icon */; };
+		B00000000000000000000015 /* DecisionFlowModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* DecisionFlowModelTests.swift */; };
+		B00000000000000000000017 /* BlackAndWhiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* BlackAndWhiteUITests.swift */; };
+		B0000000000000000000001B /* Infrastructure/Context/DailyDecisionContextStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001B /* Infrastructure/Context/DailyDecisionContextStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00000000000000000000002;
+			remoteInfo = BlackAndWhite;
+		};
+		D00000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00000000000000000000002;
+			remoteInfo = BlackAndWhite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* App/BlackAndWhiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/BlackAndWhiteApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* App/AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppEnvironment.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* App/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* Features/DecisionFlow/DecisionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DecisionFlow/DecisionFlowView.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* Features/DecisionFlow/DecisionFlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DecisionFlow/DecisionFlowModel.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* Features/DecisionFlow/Components/PrimaryActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DecisionFlow/Components/PrimaryActionButton.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* Features/DecisionFlow/Components/VerdictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DecisionFlow/Components/VerdictView.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* Features/DecisionFlow/Motion/VerdictHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DecisionFlow/Motion/VerdictHaptics.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* Domain/Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Decision.swift; sourceTree = "<group>"; };
+		A0000000000000000000000C /* Infrastructure/DecisionService/DecisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/DecisionService/DecisionService.swift; sourceTree = "<group>"; };
+		A0000000000000000000000E /* Infrastructure/DecisionService/MockDecisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/DecisionService/MockDecisionService.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* DesignSystem/ColorTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/ColorTokens.swift; sourceTree = "<group>"; };
+		A00000000000000000000011 /* DesignSystem/TypeTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/TypeTokens.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* DesignSystem/SpacingTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/SpacingTokens.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* DesignSystem/MotionTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/MotionTokens.swift; sourceTree = "<group>"; };
+		A00000000000000000000014 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		A0000000000000000000001C /* Resources/AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = Resources/AppIcon.icon; sourceTree = "<group>"; };
+		A00000000000000000000015 /* DecisionFlowModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionFlowModelTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000017 /* BlackAndWhiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackAndWhiteUITests.swift; sourceTree = "<group>"; };
+		A00000000000000000000018 /* BlackAndWhite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackAndWhite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000019 /* BlackAndWhiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackAndWhiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000001A /* BlackAndWhiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackAndWhiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000001B /* Infrastructure/Context/DailyDecisionContextStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/Context/DailyDecisionContextStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000011 /* BlackAndWhite */,
+				C00000000000000000000012 /* BlackAndWhiteTests */,
+				C00000000000000000000013 /* BlackAndWhiteUITests */,
+				C00000000000000000000014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00000000000000000000011 /* BlackAndWhite */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* App/BlackAndWhiteApp.swift */,
+				A00000000000000000000002 /* App/AppEnvironment.swift */,
+				A00000000000000000000003 /* App/RootView.swift */,
+				A00000000000000000000004 /* Features/DecisionFlow/DecisionFlowView.swift */,
+				A00000000000000000000005 /* Features/DecisionFlow/DecisionFlowModel.swift */,
+				A00000000000000000000006 /* Features/DecisionFlow/Components/PrimaryActionButton.swift */,
+				A00000000000000000000007 /* Features/DecisionFlow/Components/VerdictView.swift */,
+				A00000000000000000000008 /* Features/DecisionFlow/Motion/VerdictHaptics.swift */,
+				A00000000000000000000009 /* Domain/Decision.swift */,
+				A0000000000000000000000C /* Infrastructure/DecisionService/DecisionService.swift */,
+				A0000000000000000000000E /* Infrastructure/DecisionService/MockDecisionService.swift */,
+				A0000000000000000000001B /* Infrastructure/Context/DailyDecisionContextStore.swift */,
+				A00000000000000000000010 /* DesignSystem/ColorTokens.swift */,
+				A00000000000000000000011 /* DesignSystem/TypeTokens.swift */,
+				A00000000000000000000012 /* DesignSystem/SpacingTokens.swift */,
+				A00000000000000000000013 /* DesignSystem/MotionTokens.swift */,
+				A00000000000000000000014 /* Resources/Assets.xcassets */,
+				A0000000000000000000001C /* Resources/AppIcon.icon */,
+			);
+			path = BlackAndWhite;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000012 /* BlackAndWhiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000015 /* DecisionFlowModelTests.swift */,
+			);
+			path = BlackAndWhiteTests;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000013 /* BlackAndWhiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000017 /* BlackAndWhiteUITests.swift */,
+			);
+			path = BlackAndWhiteUITests;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000018 /* BlackAndWhite.app */,
+				A00000000000000000000019 /* BlackAndWhiteTests.xctest */,
+				A0000000000000000000001A /* BlackAndWhiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00000000000000000000002 /* BlackAndWhite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000002 /* Build configuration list for PBXNativeTarget "BlackAndWhite" */;
+			buildPhases = (
+				E00000000000000000000011 /* Sources */,
+				E00000000000000000000001 /* Frameworks */,
+				E00000000000000000000021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackAndWhite;
+			productName = BlackAndWhite;
+			productReference = A00000000000000000000018 /* BlackAndWhite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C00000000000000000000003 /* BlackAndWhiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000003 /* Build configuration list for PBXNativeTarget "BlackAndWhiteTests" */;
+			buildPhases = (
+				E00000000000000000000012 /* Sources */,
+				E00000000000000000000002 /* Frameworks */,
+				E00000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00000000000000000000011 /* PBXTargetDependency */,
+			);
+			name = BlackAndWhiteTests;
+			productName = BlackAndWhiteTests;
+			productReference = A00000000000000000000019 /* BlackAndWhiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C00000000000000000000004 /* BlackAndWhiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000004 /* Build configuration list for PBXNativeTarget "BlackAndWhiteUITests" */;
+			buildPhases = (
+				E00000000000000000000013 /* Sources */,
+				E00000000000000000000003 /* Frameworks */,
+				E00000000000000000000023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00000000000000000000012 /* PBXTargetDependency */,
+			);
+			name = BlackAndWhiteUITests;
+			productName = BlackAndWhiteUITests;
+			productReference = A0000000000000000000001A /* BlackAndWhiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C00000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C00000000000000000000003 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C00000000000000000000002;
+					};
+					C00000000000000000000004 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C00000000000000000000002;
+					};
+				};
+			};
+			buildConfigurationList = F00000000000000000000001 /* Build configuration list for PBXProject "BlackAndWhite" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00000000000000000000010;
+			productRefGroup = C00000000000000000000014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00000000000000000000002 /* BlackAndWhite */,
+				C00000000000000000000003 /* BlackAndWhiteTests */,
+				C00000000000000000000004 /* BlackAndWhiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00000000000000000000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000014 /* Resources/Assets.xcassets in Resources */,
+				B0000000000000000000001C /* Resources/AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000001 /* App/BlackAndWhiteApp.swift in Sources */,
+				B00000000000000000000002 /* App/AppEnvironment.swift in Sources */,
+				B00000000000000000000003 /* App/RootView.swift in Sources */,
+				B00000000000000000000004 /* Features/DecisionFlow/DecisionFlowView.swift in Sources */,
+				B00000000000000000000005 /* Features/DecisionFlow/DecisionFlowModel.swift in Sources */,
+				B00000000000000000000006 /* Features/DecisionFlow/Components/PrimaryActionButton.swift in Sources */,
+				B00000000000000000000007 /* Features/DecisionFlow/Components/VerdictView.swift in Sources */,
+				B00000000000000000000008 /* Features/DecisionFlow/Motion/VerdictHaptics.swift in Sources */,
+				B00000000000000000000009 /* Domain/Decision.swift in Sources */,
+				B0000000000000000000000C /* Infrastructure/DecisionService/DecisionService.swift in Sources */,
+				B0000000000000000000000E /* Infrastructure/DecisionService/MockDecisionService.swift in Sources */,
+				B00000000000000000000010 /* DesignSystem/ColorTokens.swift in Sources */,
+				B00000000000000000000011 /* DesignSystem/TypeTokens.swift in Sources */,
+				B00000000000000000000012 /* DesignSystem/SpacingTokens.swift in Sources */,
+				B00000000000000000000013 /* DesignSystem/MotionTokens.swift in Sources */,
+				B0000000000000000000001B /* Infrastructure/Context/DailyDecisionContextStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000015 /* DecisionFlowModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000017 /* BlackAndWhiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00000000000000000000011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00000000000000000000002 /* BlackAndWhite */;
+			targetProxy = D00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		D00000000000000000000012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00000000000000000000002 /* BlackAndWhite */;
+			targetProxy = D00000000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BlackAndWhite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Black & White";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BlackAndWhite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Black & White";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackAndWhite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlackAndWhite";
+			};
+			name = Debug;
+		};
+		F00000000000000000000032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackAndWhite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlackAndWhite";
+			};
+			name = Release;
+		};
+		F00000000000000000000041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BlackAndWhite;
+			};
+			name = Debug;
+		};
+		F00000000000000000000042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.blackandwhitedemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BlackAndWhite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000001 /* Build configuration list for PBXProject "BlackAndWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000011 /* Debug */,
+				F00000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000002 /* Build configuration list for PBXNativeTarget "BlackAndWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000021 /* Debug */,
+				F00000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000003 /* Build configuration list for PBXNativeTarget "BlackAndWhiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000031 /* Debug */,
+				F00000000000000000000032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000004 /* Build configuration list for PBXNativeTarget "BlackAndWhiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000041 /* Debug */,
+				F00000000000000000000042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00000000000000000000001 /* Project object */;
+}
